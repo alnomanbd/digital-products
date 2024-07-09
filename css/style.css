@@ -4,14 +4,16 @@
     box-sizing: border-box;
 }
 .menu-container{
-    background-color: rgb(32, 32, 32);
+    /* background-color: rgb(32, 32, 32); */
+    background-color: blueviolet;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .logo{
-    width: 120px;
+    width: 150px;
+    cursor: pointer;
 }
 
 .menus{
@@ -38,5 +40,42 @@
 }
 
 .menu-container .menus li a:hover{
-    background-color: slategray;
+    background-color: rgb(35, 4, 65);
+}
+
+/* Banner Section Styles */
+.header-banner-section{
+    background-image: url('../images/background.png'), 
+    linear-gradient(45deg, rgb(0,0,0), #1b1b1b);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-content{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-text{
+    color: white;
+}
+.banner-title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 18px;
+    margin: 15px 0;
+}
+.banner-btn{
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.banner-img{
+    width: 300px;
 }
