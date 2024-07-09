@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-container{
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 120px;
+}
+
+.menus{
+    
+}
+
+.menu-container .menus ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+.menu-container li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.menu-container .menus li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menu-container .menus li a:hover{
+    background-color: slategray;
+}
